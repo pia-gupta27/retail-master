@@ -1,0 +1,57 @@
+.container{
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+
+}
+
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.form input, .form select{
+    padding: 30px;
+    background-color: var(--bg);
+    color: var(--text);
+    border: 2px solid #2e374a;
+    border-radius: 5px;
+    margin-bottom: 30px;
+
+}
+
+.form select{
+    width: 45%;
+}
+
+.form input[type='number']{
+    width: 45%;
+}
+
+.form input[name='item']{
+    width: 100%;
+}
+
+.form input[name='identifier']{
+    width: 45%;
+
+}
+
+.form input[name='weight']{
+    width: 45%;
+
+}
+
+.form button{
+    width: 100%;
+    padding: 30px;
+    background-color: teal;
+    color: var(--text);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+

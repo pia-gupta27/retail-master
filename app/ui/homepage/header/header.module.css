@@ -1,0 +1,34 @@
+
+
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #151c2c;
+  color: white;
+  z-index: 1000; /* Ensure the header is above other content */
+}
+
+.headerTitle {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.loginButton {
+  background-color: teal;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.loginButton:hover {
+  background-color: #0056b3;
+}
+
+  

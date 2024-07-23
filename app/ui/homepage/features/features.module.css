@@ -1,0 +1,114 @@
+.feature__container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2.5rem;
+}
+
+.feature__item{
+    background: var(--color-bg-variant);
+    padding: 1.3rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    text-align: center; /* Center align the text */
+}
+
+.feature__item:hover{
+    border-color: var(--color-primary-variant);
+    background: transparent;
+}
+
+.feature__item-image{
+    width: 100%; /* Ensures the image takes up the full width of its container */
+    height: 300px; /* Set a fixed height */
+    overflow: hidden;
+
+}
+
+.feature__item-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+}
+
+.feature__item h3{
+    margin:1.2rem 0 2rem;
+    font-weight: normal;
+    
+}
+
+.feature__item h4{
+    color: var(--textSoft);
+    font-weight: normal;
+    font-size: 0.9rem;
+    
+}
+
+
+.h2 {
+    font-size: 1.5rem; /* Adjust the font size if needed */
+    margin-bottom: 1rem; /* Reduce the margin-bottom to create less space */
+  }
+
+
+
+
+.feature__item-cta {
+    display: flex;
+    gap: 1rem;
+    justify-content: center; /* Center align horizontally */
+    align-items: center; /* Center align vertically */
+    margin-top: auto; /* Push the buttons to the bottom of the container */
+    height: 50px; /* Fixed height for the button container to ensure alignment */
+    margin-bottom: 1rem;
+    color: var(--color-light);
+}
+
+.btn {
+    padding: 1rem 2rem; /* Increase the button size horizontally and vertically */
+    font-size: 1rem; /* Adjust the font size as needed */
+}
+/*
+.h2, .h5, .h3, .h4{
+    font-weight: 500;
+  }*/
+
+  .h5{
+    font-weight: 500;
+  }
+
+
+.img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+/*============= MEDIA QUERIES (MEDIUM DEVICES)===========*/
+
+@media screen and (max-width:1024px){
+
+    .feature__container{
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+    }
+
+    .feature__item-image {
+        height: 280px; /* Decrease height for medium devices */
+    }
+    
+    
+}
+
+
+/*============= MEDIA QUERIES (SMALL DEVICES)===========*/
+
+@media screen and (max-width:600px){
+    .feature__container{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .feature__item-image {
+        height: 200px; /* Decrease height for small devices */
+    }
+}

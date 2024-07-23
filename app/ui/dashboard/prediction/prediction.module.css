@@ -1,0 +1,56 @@
+.prediction{
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: var(--bg);
+    color: var(--textSoft);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(148, 199, 216, 0.594);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.h2  {
+    text-align: center;
+    color: var(--textSoft);
+    padding: 10px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form input, .form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: aliceblue;
+    color: #1a202c;
+}
+
+.form input[id='button'] {
+    background-color: teal;
+    color: var(--text);
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.predictionResult {
+    margin-top: 20px;
+    text-align: center;
+}

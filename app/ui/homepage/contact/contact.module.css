@@ -1,0 +1,107 @@
+
+/*
+.contact__container {
+    width: 50%;
+    display: grid;
+    grid-template-columns: 30% 50%;
+    gap: 12%;
+}*/
+
+.contact__container {
+    width: 70%; /* Remove the fixed width */
+    display: grid;
+    grid-template-columns: 30% 60%; /* Equal-width columns */
+    gap: 12%;
+    margin: 0 auto; /* Center horizontally */
+}
+
+.contact__options {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.contact__option {
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center; /* Center the text */
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+/*
+.contact__option {
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}*/
+
+.contact__option:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}
+
+.contact__option_icon {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.contact__option a {
+    margin-top: 0.7rem;
+    display: inline-block;
+    font-size: 0.8rem;
+    color: var(--color-primary);
+    transition: var(--transition);
+}
+
+.contact__option > h5 {
+    color: var(--color-light);
+}
+
+
+.h2, .h5, .h4 {
+    font-weight: 500;
+  }
+
+  .h2 {
+    font-size: 1.5rem; /* Adjust the font size if needed */
+    margin-bottom: 1rem; /* Reduce the margin-bottom to create less space */
+  }
+
+/*==================FORM===================*/
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.form input, .form textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid #2e374a;
+    resize: none;
+    color: var(--bgSoft);
+}
+
+/*============= MEDIA QUERIES (MEDIUM DEVICES)===========*/
+
+@media screen and (max-width: 1024px) {
+    .contact__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+/*============= MEDIA QUERIES (SMALL DEVICES)===========*/
+
+@media screen and (max-width: 600px) {
+    .contact__container {
+        width: var(--container-width-sm);
+    }
+}
