@@ -31,7 +31,7 @@ app.use(express.json());
 
 app.post('/dashboard/prediction', (req, res) => {
   const input = JSON.stringify(req.body);
-  const scriptPath = path.join(__dirname, 'app.py');
+  const scriptPath = path.join(__dirname, '@/backend/app.py');
 
   exec(`python ${scriptPath}`, { env: { ...process.env, INPUT: input } }, (error, stdout, stderr) => {
     if (error) {
