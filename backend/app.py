@@ -155,7 +155,8 @@ import pickle
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "http://localhost:3000"}})
+CORS(app, resources={r"/*": {"origins": "https://grocery-admin-sales.netlify.app/"}})
+
 
 # Load the model once at the start
 with open('BigMart_Sales_Model.pkl', 'rb') as file:
@@ -198,7 +199,7 @@ def prediction():
     prediction = loaded_model.predict(pd.DataFrame([user_input]))
 
     return jsonify({'prediction': list(prediction)})
-
+'''
 if __name__ == '__main__':
-    app.run(debug=True, port=8080)
+    app.run(debug=True)'''
 

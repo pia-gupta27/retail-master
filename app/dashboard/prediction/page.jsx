@@ -275,7 +275,7 @@ const PredictionPage = () => {
         event.preventDefault();
     
         try {
-            const response = await fetch('http://localhost:8080/dashboard/prediction', {
+            const response = await fetch('https://us-central1-grocery-admin-sales.cloudfunctions.net/api/dashboard/prediction', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
