@@ -275,7 +275,7 @@ const PredictionPage = () => {
         event.preventDefault();
     
         try {
-            const response = await fetch('https://us-central1-grocery-admin-sales.cloudfunctions.net/api/dashboard/prediction', {
+            const response = await fetch('https://grocery-admin-sales.herokuapp.com/dashboard/prediction', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
