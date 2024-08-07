@@ -199,6 +199,10 @@ def prediction():
     prediction = loaded_model.predict(pd.DataFrame([user_input]))
 
     return jsonify({'prediction': list(prediction)})
+
+if __name__ == '__main__':
+    app.run(debug=True)
+
 '''
 if __name__ == '__main__':
     app.run(debug=True)'''
