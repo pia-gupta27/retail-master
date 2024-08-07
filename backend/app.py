@@ -155,7 +155,7 @@ import pickle
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "https://grocery-admin-sales.netlify.app/"}})
+CORS(app, resources={r"/*": {"origins": "https://grocery-admin-sales.netlify.app"}})
 
 
 # Load the model once at the start
