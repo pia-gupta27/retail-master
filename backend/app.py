@@ -154,9 +154,17 @@ import pandas as pd
 import pickle
 from flask_cors import CORS
 
-app = Flask(__name__)
+#app = Flask(__name__)
 #CORS(app, resources={r"/*": {"origins": "https://grocery-admin-sales.netlify.app"}})
-CORS(app)
+#CORS(app)
+
+
+app = Flask(__name__)
+CORS(app, resources={r"/*": {"origins": "*"}})  # Allow all origins, adjust as needed
+
+@app.route('/your-endpoint', methods=['GET', 'POST', 'OPTIONS'])
+def your_endpoint():
+    return 'Hello, CORS enabled!'
 
 
 # Load the model once at the start
