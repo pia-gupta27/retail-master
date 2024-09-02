@@ -162,14 +162,22 @@ from flask_cors import CORS
 app = Flask(__name__)
 CORS(app, resources={r"/*": {"origins": "*"}})  # Allow all origins, adjust as needed
 
-@app.route('/your-endpoint', methods=['GET', 'POST', 'OPTIONS'])
-def your_endpoint():
-    return 'Hello, CORS enabled!'
+
 
 
 # Load the model once at the start
 with open('BigMart_Sales_Model.pkl', 'rb') as file:
     loaded_model = pickle.load(file)
+
+
+@app.route('/dashboard/prediction', methods=['GET', 'POST', 'OPTIONS'])
+def your_endpoint():
+    return 'Hello, CORS enabled!'
+
+@app.route('/dashboard/prediction', methods=['OPTIONS'])
+def preflight_check():
+    return '', 200
+
 
 @app.route('/dashboard/prediction', methods=['POST'])
 def prediction():
