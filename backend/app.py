@@ -160,10 +160,10 @@ from flask_cors import CORS
 
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "*"}})  # Allow all origins, adjust as needed
+#CORS(app, resources={r"/*": {"origins": "*"}})  # Allow all origins, adjust as needed
 
 
-
+CORS(app, resources={r"/*": {"origins": "*"}}, methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"])
 
 # Load the model once at the start
 with open('BigMart_Sales_Model.pkl', 'rb') as file:
