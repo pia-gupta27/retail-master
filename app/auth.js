@@ -24,9 +24,9 @@ const login = async (credentials) => {
         throw new Error("Failed to login!")
     }
 
-}
+};
 
-export default NextAuth{ signIn, signOut, auth} = NextAuth({
+export default NextAuth({
     ...authConfig,
     providers: [
         CredentialsProvider({
