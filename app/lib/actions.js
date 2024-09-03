@@ -347,23 +347,10 @@ export const updateTransaction = async (formData) => {
 export const authenticate = async (prevState,formData) =>{
     const {username, password} = Object.fromEntries(formData);
 
-    try {
-        const response = await signIn("credentials", { redirect: false, username, password });
-        if (response?.ok) {
-            // Redirect to dashboard upon successful login
-            redirect("/dashboard");
-        } else {
-            return "Wrong Credentials!";
-        }
-    } catch (err) {
+    try{
+        await signIn("credentials",{username,password});
+    }   catch(err){
         return "Wrong Credentials!";
     }
-    
 };
 
-
-/*try{
-    await signIn("credentials",{username,password});
-}   catch(err){
-    return "Wrong Credentials!";
-}*/

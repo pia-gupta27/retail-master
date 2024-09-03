@@ -107,23 +107,7 @@ const Sidebar = async () => {
                 ))}
 
             </ul>
-              <form>
-                {/* Logout button, triggers signOut directly */}
-                <button className={styles.logout} onClick={() => signOut({ callbackUrl: "/login" })}>
-                  <MdLogout />
-                  Logout
-                </button>
-              </form>
-            
-        </div>
-    )
-}
-
-export default Sidebar;
-
-
-
-/*<form action={async () =>{
+            <form action={async () =>{
               "use server"
               await signOut();
             }}>
@@ -131,4 +115,10 @@ export default Sidebar;
                 <MdLogout/>
                 Logout
                 </button>
-                </form>*/
+                </form>
+            
+        </div>
+    )
+}
+
+export default Sidebar;

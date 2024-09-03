@@ -4,28 +4,16 @@ export const authConfig = {
         signIn: "/login",
     },
     callbacks:{
-        async authorized({ req, token }) {
-            const isLoggedIn = !!token;  // Check if the token is available, which indicates the user is logged in
-            const isOnDashboard = req.url.startsWith("/dashboard");
-
-            if (isOnDashboard) {
-                return isLoggedIn;  // Only allow access to dashboard if logged in
+        authorized({auth,request}){
+            const isLoggedIn = auth?.user;
+            const isOnDashboard = request.nextUrl.pathname.startsWith("/dashboard");
+            if(isOnDashboard){
+                if(isLoggedIn) return true;
+                return false;
+            }else if(isLoggedIn){
+                return Response.redirect(new URL("/dashboard",request.nextUrl));
             }
-
-            if (isLoggedIn) {
-                return true;  // Allow access to other pages if logged in
-            }
-
-            return false;
+            return true;
         },
     },
-};
-
-
-/*if(isOnDashboard){
-    if(isLoggedIn) return true;
-    return false;
-}else if(isLoggedIn){
-    return Response.redirect(new URL("/dashboard",request.nextUrl));
-}
-return true;*/
+}; 
