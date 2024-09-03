@@ -26,7 +26,7 @@ const login = async (credentials) => {
 
 }
 
-export const { signIn, signOut, auth} = NextAuth({
+export default NextAuth{ signIn, signOut, auth} = NextAuth({
     ...authConfig,
     providers: [
         CredentialsProvider({
