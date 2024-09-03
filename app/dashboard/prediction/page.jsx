@@ -275,7 +275,7 @@ const PredictionPage = () => {
         event.preventDefault();
     
         try {
-            const response = await fetch('https://grocery-sales-admin-1.onrender.com/', {
+            const response = await fetch('https://grocery-sales-admin-1.onrender.com/dashboard/prediction', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -294,6 +294,8 @@ const PredictionPage = () => {
             setPredictionResult('Error: Enter all fields!');
         }
     };
+
+    
     
 
     return (
