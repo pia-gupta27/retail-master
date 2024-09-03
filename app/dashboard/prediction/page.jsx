@@ -360,7 +360,7 @@ const PredictionPage = () => {
 
                     <label className={styles.label} htmlFor="Outlet_Age">Outlet Age:</label>
                     <input 
-                        type="number" 
+                        type="number"
                         name="Outlet_Age" 
                         value={formData.Outlet_Age} 
                         step="1" 
