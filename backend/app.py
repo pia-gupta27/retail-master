@@ -154,16 +154,16 @@ import pandas as pd
 import pickle
 from flask_cors import CORS
 
-#app = Flask(__name__)
-#CORS(app, resources={r"/*": {"origins": "https://grocery-admin-sales.netlify.app"}})
-#CORS(app)
-
-
 app = Flask(__name__)
+CORS(app, resources={r"/*": {"origins": "https://smart-grocer.onrender.com/"}})
+
+
+
+#app = Flask(__name__)
 #CORS(app, resources={r"/*": {"origins": "*"}})  # Allow all origins, adjust as needed
 
 
-CORS(app, resources={r"/*": {"origins": "*"}}, methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"])
+#CORS(app, resources={r"/*": {"origins": "*"}}, methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"])
 
 # Set custom CORS headers
 @app.after_request
