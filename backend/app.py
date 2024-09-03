@@ -165,6 +165,13 @@ app = Flask(__name__)
 
 CORS(app, resources={r"/*": {"origins": "*"}}, methods=["GET", "POST", "PUT", "DELETE", "OPTIONS"])
 
+# Set custom CORS headers
+@app.after_request
+def add_cors_headers(response):
+    response.headers['Content-Type'] = 'application/json'
+    response.headers['Access-Control-Allow-Origin'] = '*'
+    return response
+
 # Load the model once at the start
 with open('BigMart_Sales_Model.pkl', 'rb') as file:
     loaded_model = pickle.load(file)
