@@ -1,4 +1,4 @@
-# grocery-sales-admin
+# Retail Master
 
 Website : https://grocery-admin-sales.netlify.app/
 
