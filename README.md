@@ -47,22 +47,30 @@ The Retail Master is a software engineering project aimed at developing a reliab
 ![image](https://github.com/user-attachments/assets/251da9db-d1cc-44c5-96df-365d8831e9be)
 ![image](https://github.com/user-attachments/assets/fed63559-73bc-441f-b3b1-378e6dfb74d8)
 ![image](https://github.com/user-attachments/assets/767a9518-df2f-4654-8ee6-fd8d4d8271b2)
-Dashboard:
+
+**Dashboard**:
 ![image](https://github.com/user-attachments/assets/54119ba1-f41c-40f1-bee7-972251c215a1)
 ![image](https://github.com/user-attachments/assets/955d8988-7dd7-4ac9-b67c-ffd7135bf76c)
-Users Page:
+
+**Users Page**:
 ![image](https://github.com/user-attachments/assets/542d3ba4-fe21-4d09-932e-0cb8657cc6bf)
-Products Page:
+
+**Products Page**:
 ![image](https://github.com/user-attachments/assets/9f285c8c-1ea1-46ea-af09-92029e735698)
-Search Functionality:
+
+**Search Functionality**:
 ![image](https://github.com/user-attachments/assets/8f6b186d-d42d-4a3b-9186-6c34daf7ccb7)
-Transactions Page:
+
+**Transactions Page**:
 ![image](https://github.com/user-attachments/assets/49669c18-2a0a-4b18-b659-824729c9672d)
-Outlets Page:
+
+**Outlets Page**:
 ![image](https://github.com/user-attachments/assets/36d0040c-fa5b-415b-a905-7bfd5a814b2f)
-Prediction Page:
+
+**Prediction Page**:
 ![image](https://github.com/user-attachments/assets/191478f9-a5ff-449b-bd40-51f709719359)
-![image](https://github.com/user-attachments/assets/f94d4fc4-a219-47bb-8304-7e0903adc794)
+![image](https://github.com/user-attachments/assets/d47322cb-05eb-4a1d-8de0-53b5b8688b99)
+
 
 
 
