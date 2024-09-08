@@ -242,12 +242,12 @@ from flask_cors import CORS
 app = Flask(__name__)
 
 # Allow CORS for all routes, only from your frontend origin
-CORS(app, resources={r"/*": {"origins": "https://smart-grocer.onrender.com"}})
+CORS(app, resources={r"/*": {"origins": "https://retail-master-9kmi.onrender.com"}})
 
 # Set custom CORS headers
 @app.after_request
 def add_cors_headers(response):
-    response.headers['Access-Control-Allow-Origin'] = 'https://smart-grocer.onrender.com'
+    response.headers['Access-Control-Allow-Origin'] = 'https://retail-master-9kmi.onrender.com'
     response.headers['Access-Control-Allow-Headers'] = 'Content-Type'
     response.headers['Access-Control-Allow-Methods'] = 'GET, POST, OPTIONS'
     return response
