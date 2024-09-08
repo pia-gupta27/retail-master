@@ -1,8 +1,5 @@
 # Retail Master
 
-Website : https://grocery-admin-sales.netlify.app/
+Website: https://retail-master-9kmi.onrender.com/
 
-
-Website: https://smart-grocer.onrender.com/
-Backend: https://grocery-sales-admin-1.onrender.com/
  
