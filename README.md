@@ -50,6 +50,10 @@ The Retail Master is a software engineering project aimed at developing a reliab
 ![image](https://github.com/user-attachments/assets/54119ba1-f41c-40f1-bee7-972251c215a1)
 ![image](https://github.com/user-attachments/assets/49669c18-2a0a-4b18-b659-824729c9672d)
 ![image](https://github.com/user-attachments/assets/191478f9-a5ff-449b-bd40-51f709719359)
+![image](https://github.com/user-attachments/assets/14f56e9c-30b7-47f7-9267-88f8f844a25a)
+![image](https://github.com/user-attachments/assets/955d8988-7dd7-4ac9-b67c-ffd7135bf76c)
+
+
 
 
 
