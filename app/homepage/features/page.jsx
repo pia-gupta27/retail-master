@@ -13,7 +13,7 @@ const Features = () => {
       <div className={styles.feature__container}>
         <article className={styles.feature__item}>
           <div className={styles.feature__item_image}>
-            <img className={styles.img} src='/dashboard.png' alt='' />
+            <img className={styles.img} src='/dashboard3.PNG' alt='' />
           </div>
           <h3 className={styles.h3}>Analytics Dashboard</h3>
           <div className={styles.feature__item_cta}>
@@ -23,7 +23,7 @@ const Features = () => {
 
         <article className={styles.feature__item}>
           <div className={styles.feature__item_image}>
-            <img className={styles.img} src='/dashboard.png' alt='' />
+            <img className={styles.img} src='/prediction2.PNG' alt='' />
           </div>
           <h3 className={styles.h3}>Sales Prediction</h3>
           <div className={styles.feature__item_cta}>
@@ -33,7 +33,7 @@ const Features = () => {
 
         <article className={styles.feature__item}>
           <div className={styles.feature__item_image}>
-            <img className={styles.img} src='/customers.png' alt='' />
+            <img className={styles.img} src='/customers3.PNG' alt='' />
           </div>
           <h3 className={styles.h3}>Customer Management</h3>
           <div className={styles.feature__item_cta}>
@@ -43,7 +43,7 @@ const Features = () => {
 
         <article className={styles.feature__item}>
           <div className={styles.feature__item_image}>
-            <img className={styles.img} src='/products.png' alt='' />
+            <img className={styles.img} src='/products2.PNG' alt='' />
           </div>
           <h3 className={styles.h3}>Product Management</h3>
           <div className={styles.feature__item_cta}>
@@ -53,7 +53,7 @@ const Features = () => {
 
         <article className={styles.feature__item}>
           <div className={styles.feature__item_image}>
-            <img className={styles.img} src='/outlets.png' alt='' />
+            <img className={styles.img} src='/outlets2.PNG' alt='' />
           </div>
           <h3 className={styles.h3}>Outlet Management</h3>
           <div className={styles.feature__item_cta}>
@@ -63,7 +63,7 @@ const Features = () => {
 
         <article className={styles.feature__item}>
           <div className={styles.feature__item_image}>
-            <img className={styles.img} src='/interface.png' alt='' />
+            <img className={styles.img} src='/interface3.PNG' alt='' />
           </div>
           <h3 className={styles.h3}>User Friendly Interface</h3>
           <div className={styles.feature__item_cta}>

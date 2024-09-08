@@ -8,7 +8,7 @@ import Link from 'next/link';
 const Header = () => {
   return (
     <header className={styles.header}>
-      <div className={styles.headerTitle}>Sales Predictor</div>
+      <div className={styles.headerTitle}>Retail Master</div>
       <Link href="/login">
       <button className={styles.loginButton}>Login</button>
       </Link>

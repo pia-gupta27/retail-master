@@ -5,7 +5,7 @@ import styles from '@/app/ui/homepage/footer/footer.module.css'
 const Footer = () => {
   return (
     <footer className={styles.footer}> 
-      <a href='#!' className={styles.footer__logo}>SALES PREDICTOR</a>
+      <a href='#!' className={styles.footer__logo}>RETAIL MASTER</a>
 
       <ul className={styles.permalinks}>
         <li><a href='#about'>Home</a></li>

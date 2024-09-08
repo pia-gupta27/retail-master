@@ -6,7 +6,7 @@ import styles from '@/app/ui/homepage/about/about.module.css'
 const About = () => {
   return (
     <section id="about" className={styles.about}>
-      <h2 className={styles.h2}>Sales Predictor</h2>
+      <h2 className={styles.h2}>RETAIL MASTER</h2>
       <h5 className={styles.h5}>Get To Know</h5>
       <br />
       <br />
@@ -14,13 +14,13 @@ const About = () => {
       <div className={styles.about__container}>
         <div className={styles.about__me}>
           <div className={styles.about__meImage}>
-            <img className={styles.img} src='/portfolio1.jpg' alt="Sales Prediction" />
+            <img className={styles.img} src='/sales2.jpg' alt="Sales Prediction" />
           </div>
         </div>
 
         <div className={styles.about__content}>
           <p>
-            Welcome to Sales Predictor, your ultimate solution for streamlining retail business management with an intuitive dashboard and powerful sales prediction tools, empowering you to make data-driven decisions and drive growth.
+            Welcome to Retail Master, your ultimate solution for streamlining retail business management with an intuitive dashboard and powerful sales prediction tools, empowering you to make data-driven decisions and drive growth.
           </p>
 
           <div className={styles.about__cards}>
