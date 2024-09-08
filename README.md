@@ -9,7 +9,6 @@ The Retail Master is a software engineering project aimed at developing a reliab
 - [Team Members](#team-members)
 - [Project Objectives](#project-objectives)
 - [Project Phases](#project-phases)
-- [How to Run](#how-to-run)
 - [Screenshots](#screenshots)
 
 ## Team Members
