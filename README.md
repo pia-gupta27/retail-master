@@ -1,4 +1,4 @@
-# Retail Master : Sales Tracking & Prediction System
+# Retail Master: Sales Tracking & Prediction System
 
 Website: https://retail-master-9kmi.onrender.com/
 
