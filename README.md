@@ -42,11 +42,25 @@ The Retail Master is a software engineering project aimed at developing a reliab
    - Test Reports
 
 ## Screenshots
-![image](https://github.com/anupriyalathey/Sales-Predictor/assets/90963726/a51ddde2-4c5d-4f4b-b897-c0e9a1081b65)
-![image](https://github.com/anupriyalathey/Sales-Predictor/assets/90963726/3b82b543-883c-463e-99fc-f4479e2d2151)
-![image](https://github.com/anupriyalathey/Sales-Predictor/assets/90963726/27f22e9c-360b-48da-b9d3-43e91457e52f)
-![image](https://github.com/anupriyalathey/Sales-Predictor/assets/90963726/09d3955c-0347-47ae-a0bc-78696ca11e75)
-![image](https://github.com/anupriyalathey/Sales-Predictor/assets/90963726/71258073-5f76-4493-8d07-8550bab82a63)
+![image](https://github.com/user-attachments/assets/95456b62-344b-491e-9448-6e6895ec13f1)
+![image](https://github.com/user-attachments/assets/6c9d8d3e-e543-43f5-a6f4-97095dd96a92)
+![image](https://github.com/user-attachments/assets/251da9db-d1cc-44c5-96df-365d8831e9be)
+![image](https://github.com/user-attachments/assets/fed63559-73bc-441f-b3b1-378e6dfb74d8)
+![image](https://github.com/user-attachments/assets/767a9518-df2f-4654-8ee6-fd8d4d8271b2)
+![image](https://github.com/user-attachments/assets/54119ba1-f41c-40f1-bee7-972251c215a1)
+![image](https://github.com/user-attachments/assets/49669c18-2a0a-4b18-b659-824729c9672d)
+![image](https://github.com/user-attachments/assets/191478f9-a5ff-449b-bd40-51f709719359)
+
+
+
+
+
+
+
+
+
+
+
 
 
  
