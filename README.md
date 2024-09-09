@@ -1,9 +1,9 @@
 # Retail Master: Sales Tracking & Prediction System
 
-Website: https://retail-master1.vercel.app/
-
 ## Overview
 The Retail Master is a software engineering project aimed at developing a reliable and robust system that leverages historical sales data and machine learning techniques to predict future sales trends. This project is designed to empower businesses by providing accurate sales forecasts, enabling informed decision-making in areas such as inventory management, marketing strategies, and financial planning.
+
+Website: https://retail-master1.vercel.app/
 
 ## Table of Contents
 - [Team Members](#team-members)
