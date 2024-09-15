@@ -7,6 +7,7 @@ import { revalidatePath } from "next/cache";
 import bcrypt from "bcrypt"
 import { signIn } from "../auth";
 
+
 export const addUser = async (formData) => {
     const {username, email, password, phone, address, isAdmin, isActive} =
     Object.fromEntries(formData);
@@ -344,6 +345,20 @@ export const updateTransaction = async (formData) => {
 };
 
 
+export const authenticate = async (prevState, formData) => {
+    const { username, password } = Object.fromEntries(formData);
+  
+    try {
+      await signIn("credentials", { username, password });
+    } catch (err) {
+      if (err.message.includes("CredentialsSignin")) {
+        return "Wrong Credentials";
+      }
+      throw err;
+    }
+  };
+
+ /* CORRECT
 export const authenticate = async (prevState,formData) =>{
     const {username, password} = Object.fromEntries(formData);
 
@@ -353,4 +368,4 @@ export const authenticate = async (prevState,formData) =>{
         return "Wrong Credentials!";
     }
 };
-
+*/
